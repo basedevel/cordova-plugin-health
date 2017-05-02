@@ -34,7 +34,7 @@ dataTypes['nutrition.calcium'] = 'HKQuantityTypeIdentifierDietaryCalcium';
 dataTypes['nutrition.iron'] = 'HKQuantityTypeIdentifierDietaryIron';
 dataTypes['nutrition.water'] = 'HKQuantityTypeIdentifierDietaryWater';
 dataTypes['nutrition.caffeine'] = 'HKQuantityTypeIdentifierDietaryCaffeine';
-dataTypes['blood_clucose'] = 'HKQuantityTypeIdentifierBloodGlucose';
+dataTypes['blood_glucose'] = 'HKQuantityTypeIdentifierBloodGlucose';
 
 var units = [];
 units['steps'] = 'count';
@@ -65,7 +65,7 @@ units['nutrition.calcium'] = 'mg';
 units['nutrition.iron'] = 'mg';
 units['nutrition.water'] = 'ml';
 units['nutrition.caffeine'] = 'g';
-units['blood_clucose'] = 'mg/dl';
+units['blood_glucose'] = 'mg/dl';
 Health.prototype.isAvailable = function (success, error) {
   window.plugins.healthkit.available(success, error);
 };
